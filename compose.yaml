@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    container_name: python_app
+    volumes:
+      - .:/usr/src/app
+    #user: myuser
+    command: python main.py
