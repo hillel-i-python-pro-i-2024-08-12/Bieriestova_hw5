@@ -5,7 +5,7 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /usr/src/app
 #RUN useradd -m myuser
-
+#MASTER
 COPY main.py .
 COPY requirements.txt .
 
